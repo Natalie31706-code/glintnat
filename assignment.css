@@ -1,0 +1,327 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#Home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    display: flex;
+    z-index: 1000;
+}
+.container{
+    top: 0px;
+    position: absolute;
+    top: 30px;
+    right: 85px;
+}
+
+.container span{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+
+.logo{
+    padding: 7px 25px;
+}
+
+a{
+    color: azure;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.welcome h1{
+    margin-top: 130px;
+    margin-left: 150px;
+    color: rgb(185, 183, 183);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.welcome p{
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 70px;
+    color: white;
+    font-size: 70px;
+    flex-wrap: wrap;
+}
+
+.btns{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 130px;
+    gap: 10px;
+}
+
+.btns button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 15px;
+    border: 3px solid white;
+}
+
+.btns button:hover{
+    background-color: rgba(245, 245, 245, 0.633);
+    color: black;
+}
+
+#About{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(28, 146, 97);
+}
+
+.hello h3{
+    padding-top: 70px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hello h1{
+    padding-top: 20px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hello p{
+    padding: 35px 70px;
+    margin: 0px 25px;
+    font-size: 37px;
+    color: black;
+    text-align: center;
+}
+
+.digits{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-top: 30px;
+}
+
+.counter h1{
+text-align: center;
+font-size: 50px;
+color: white;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.counter p{
+font-size: 25px;
+color: black;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Works{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 690px;
+}
+
+.recent{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(33, 32, 32);
+}
+
+.recent h1{
+    padding-top: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(28, 146, 97);
+    font-size: 25px;
+    text-align: center;
+}
+
+.recent p{
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pics{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pics img:hover {
+    z-index: 1;
+}
+
+.f img:hover {
+    filter: brightness(50%);
+}
+
+.s img:hover {
+filter: brightness(50%);
+}
+
+.t img:hover {
+    filter: brightness(50%);
+    
+}
+
+.fo img:hover {
+    filter: brightness(50%);
+}
+
+#Clients{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(224, 226, 224);
+}
+
+.our h1{
+    padding-top: 125px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(28, 146, 97);
+    font-size: 25px;
+    text-align: center;
+}
+
+.our h3{
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.our .clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our p{
+    color: rgb(28, 146, 97);
+    padding: 35px 300px;
+    margin: 0px 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#Contacts{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(46, 44, 44);
+}
+
+.call h1{
+    padding-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(28, 146, 97);
+    font-size: 25px;
+    text-align: center;
+}
+
+.call h3{
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.contact{
+    width: 450px;
+    height: 500px;
+    background-color: black;
+    opacity: 70%;  
+}
+
+form{
+    padding: 20px;
+}
+
+form label{
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+form input{
+    padding: 7px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#Email{
+    width: 375px;
+}
+
+#here{
+    padding: 10px;
+    width: 375px;
+    height: 135px;
+}
+
+#sub{
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(28, 146, 97);
+    padding: 5px 10px;
+    margin-left: 315px;
+    margin-top: 15px;
+}
+
+.glint{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(25, 24, 24);
+    opacity: 70%; 
+}
+
+.glint h1{
+    padding-top: 40px;
+    margin: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(28, 146, 97);
+    font-size: 25px;
+}
+
+.glint p{
+    padding-top: 15px;
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+
+
+
+
+
